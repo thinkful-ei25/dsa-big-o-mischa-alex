@@ -13,7 +13,7 @@ function isEven(value){
     return false;
 }
 
-// O(1)
+// best and worse case -> O(1)
 
 console.log(isEven(4));
 console.log(isEven(5));
