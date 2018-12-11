@@ -7,6 +7,17 @@ function ReverseString(string){
   } else { 
     return ReverseString(string.slice(1)).concat(string[0]); 
   }
+
+  
+// //base case
+// if(str === ''){
+//     return '';
+//   }
+//   // general case
+//   const newChar = str[str.length-1];
+
+//   return newChar + reverseString(str.slice(0,-1));
+// }```
 }
 
 console.log(ReverseString('String Cheese')); 
